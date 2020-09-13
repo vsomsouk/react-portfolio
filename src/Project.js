@@ -1,10 +1,11 @@
 import React from "react";
 import {Row, Col, Container, Card, Button} from 'react-bootstrap';
 import Navbar from "./Navbar";
+import Footer from './Footer';
 
 
 
-function Project() {
+function Project() { 
     return (
         <div className="container">
         <Container fluid="md" className="vertical">
@@ -14,7 +15,7 @@ function Project() {
            <Col xs="10" className="projectdiv">
 
              <div className="d-flex justify-content-center mt-5">              
-             <Card className="project" style={{ width: '30rem' }}>
+             <Card className="project mr-5" style={{ width: '30rem' }}>
                  <Card.Img variant="top" src="dayscheduleimg.jpg" />
                   <Card.Body>
                     <Card.Title className="title">Work Scheduler</Card.Title>
@@ -46,7 +47,7 @@ function Project() {
                 </div>
 
                 <div className="d-flex justify-content-center">              
-             <Card className="project" style={{ width: '30rem' }}>
+             <Card className="project mr-5" style={{ width: '30rem' }}>
                  <Card.Img variant="top" src="projectoneimg.JPG" />
                   <Card.Body>
                     <Card.Title className="title">Recipe Now!</Card.Title>
@@ -77,7 +78,7 @@ function Project() {
                 </div>   
 
                 <div className="d-flex justify-content-center">              
-             <Card className="project" style={{ width: '30rem' }}>
+             <Card className="project mr-5" style={{ width: '30rem' }}>
                  <Card.Img variant="top" src="burger.JPG" />
                   <Card.Body>
                     <Card.Title className="title">Devour A Burger!</Card.Title>
@@ -105,14 +106,11 @@ function Project() {
                   </Card.Body>
                 </Card>
                 </div>   
-
-
-
-
            </Col>
            <Col xs="1"></Col>
           </Row>
         </Container>
+        <Footer/>
         </div>
     );
   }
