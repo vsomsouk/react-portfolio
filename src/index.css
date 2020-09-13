@@ -1,0 +1,87 @@
+body {
+  background-color: #abb1ab;
+  font-family: 'Lato', sans-serif;
+
+}
+
+.vertical {
+  min-height: 100%;
+  min-height: 100vh;
+  background-color: #c2c0c0;
+  box-shadow: 0 0 5px 5px  #696969;
+}
+
+.navbar{
+  background-color:#E53D00;
+  color: #F6E8EA !important;
+  font-size: 1.5em;
+  margin-right:-15px;
+  margin-left: -15px;
+}
+
+.aboutlink, .projectlink, .contactlink {
+  color: #F6E8EA;
+  font-family: 'Unica One', cursive;
+  font-size: 1.5em;
+  font-weight: 300;
+  padding: 30px;
+}
+
+.yellow {
+  border: solid 3px yellow;
+}
+
+
+.vanida {
+  float:left;
+  margin-right:20px;
+
+  border: 3px solid #E53D00;
+}
+
+.bio {
+  margin-top: 15%;
+}
+
+.paragraph {
+  padding:30px;
+  margin-top:8px;
+}
+
+.green {
+  border: 5px solid green;
+}
+
+.project {
+  margin: 15px 10px 20px 5px;
+}
+
+.weathertext {
+  margin-top: 10%;
+}
+
+.codetext {
+  margin-top: 22%;
+}
+
+.codeimg {
+  margin-top:20%;
+
+}
+
+.mixtapeimg {
+  margin-top: 10%;
+}
+
+.mixtapetext {
+  margin-top: 20%;
+}
+
+.title {
+  font-weight: bolder !important;
+  font-size: 2em;
+}
+
+Button{
+  padding: 10px
+}
