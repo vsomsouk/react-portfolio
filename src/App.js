@@ -27,7 +27,7 @@ const About = () => (
   <Navbar />
     <Row>
      <Col xs="1"></Col>
-     <Col xs="12" className="bio">
+     <Col xs="10" className="bio">
        <Image className="vanida" md={4} roundedCircle fluid src="bioimg.jpg" width="300"></Image>
        <Row className="paragraph">
      <p>Hi there! My name is Vanida, and I am currently a full stack web development student at U of M Coding Boot Camp.

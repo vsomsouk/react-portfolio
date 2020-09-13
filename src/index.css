@@ -81,8 +81,8 @@ Button{
 }
 
 .contactinfo {
-  font-size: 2em;
-  margin:10px;
+  font-size: 1.8em;
+  margin-top:-40px;
 }
 
 .none {
@@ -92,6 +92,11 @@ Button{
 
 .icon {
   margin:20px;
+}
+
+.check {
+  font-size: 1.8em;
+  margin-bottom:10%;
 }
 
 .footer {
@@ -104,5 +109,9 @@ Button{
 
 .green {
   border: solid 3px green;
+}
+
+.linkcolor{
+  color:black;
 }
 
