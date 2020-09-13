@@ -8,10 +8,6 @@ import {FaGithub, FaFilePdf, FaLinkedin, FaPhoneAlt, FaEnvelope } from "react-ic
 
 
 
-
-
-
-
 function Contact() {
     return (
         <div className="container">
@@ -34,7 +30,7 @@ function Contact() {
                   </a>
                   </div>
                   <div className="icon ">
-                    <a className="linkcolor" className="linkcolor" href="https://www.linkedin.com/in/vanida-somchaleunsouk">
+                    <a className="linkcolor" href="https://www.linkedin.com/in/vanida-somchaleunsouk">
                     <FaLinkedin size="1.5em" color="blue" /> LinkedIn
                   </a>
                   </div>
